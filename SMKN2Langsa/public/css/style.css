@@ -1,0 +1,162 @@
+
+.navbar {
+    /* background-color: transparent; */
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(6,6,6,.5);
+}
+
+.navbar.navbar-change-color {
+    background-color: rgb(3, 122, 49);
+}
+
+.jumbotron{
+    background-image: url('/image/jumbotronn.jpg');
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 200px;
+    color: white;
+}
+
+.jumbotron h1{
+    font-size: 40pt;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+}
+
+.jumbotron p {
+    font-size: 13pt;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+}
+
+.berita-terbaru {
+    min-height: 800px;
+}
+
+.berita-terbaru .card {
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+ .card img {
+    transition: .5s;
+}
+
+.card img:hover {
+   opacity: 0.7;
+}
+ .card h5 {
+    transition: .5s;
+}
+
+ .card h5:hover {
+    color: rgb(14, 170, 0);
+}
+
+
+.container .hr-top {
+    width: 250px;
+    border-top: 3px solid #049b31;
+}
+
+.container h2 {
+    color: #049b31;
+}
+
+.ekstrakurikuler {
+    min-height: 600px;
+    background-color: #eee;
+}
+
+.prestasi {
+    min-height: 900px;
+}
+
+.prestasi .card {
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+.angka-informasi {
+    background-color: rgb(8, 83, 20);
+}
+
+.angka-informasi h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40pt;
+}
+
+.angka-informasi p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.angka-informasi .card {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.angka-informasi .card {
+    border: none;
+}
+
+.pendidik {
+    min-height: 600px;
+}
+
+.pendidik .card {
+    border: none;
+    padding: 0px 40px 0px 40px;
+}
+
+.pendidik .card .card-img-top {
+    width: 200px;
+}
+
+.kontak {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    min-height: 400px;
+    background-color: rgb(8, 83, 20);
+    font-size: 10pt;
+}
+
+.footer .card {
+    background-color: transparent;
+    border: none;
+}
+
+.hr-footer,
+.footer-c {
+    border-top: 1px solid rgb(82, 133, 95);
+}
+
+.isi {
+    min-height: 600px;
+}
+
+.isi h1{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+.isi hr {
+    border-top: 1px solid green;
+}
+
+.isi p{
+    text-align: justify;
+}
+
+.box-login {
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 1000px) {
+    .jumbotron img {
+        display: none;
+    }
+}
